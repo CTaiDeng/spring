@@ -14,6 +14,9 @@ Lua:
 
 Misc:
  - make LuaVFSDownload rescan archives in main thread, and do so when a download finishes (not when one starts)
+ - change PitchAdjust config-setting from a boolean to an integer
+   0 disables, 1 scales pitch by the square root of game speed, 2
+   scales linearly with game speed
 
 
 
